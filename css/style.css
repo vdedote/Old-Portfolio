@@ -1,0 +1,212 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@media only screen and (max-width: 768px)
+{
+     /* For mobile phones: */
+     .coverimage
+     {
+        object-fit:cover;
+
+     }
+     .changeinmobile
+     {
+       color: white;
+       text-shadow: 2px 2px #000000;
+     }
+ }
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.uniformcolor
+{
+  background-color: #303030;
+}
+.uniformcolor:hover
+{
+  background-color: #303030;
+}
+
+.shadows
+{
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+/* Navigation */
+i.notbelong
+{color: white!important;}
+
+.navbar-fixed
+{
+   z-index: 1000;
+
+}
+nav
+{
+  background: rgb(228, 228, 228, 0.2);
+  background: rgba(0, 0, 0, 0.5);
+}
+.sidenav
+{
+  z-index: 1001;
+}
+img.imgadjust
+{
+  padding-top: 10%;
+}
+
+.navbar-fixed {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar-fixed.scrolled {
+    background-color: #303030;
+}
+
+/* parallax */
+.parallax-container
+{
+     /* height:600px; */
+     height: 100vh;
+}
+
+/* Parallax Area */
+.parallaxtitle
+{
+  padding-top: 10%;
+}
+span.iboldme
+{
+  font-weight:900;
+}
+span.latime
+{
+  font-weight: lighter;
+}
+
+/* About Section */
+h3.about::after
+{
+    border-bottom: 1px solid;
+    border-color: #737373;
+}
+h3.about
+{
+  font-weight:900;
+}
+
+h5.aboutpart1, h5.aboutpart2
+{
+  font-weight: lighter;
+}
+span.bout, span.educ, span.exp
+{
+  font-weight: bold;
+}
+span.company, span.position, span.school
+{
+  font-weight: bold;
+}
+a.cvbutton
+{
+  font-weight: bold;
+  background-color: #303030;
+}
+a.cvbutton:hover
+{
+  background-color:#303035;
+}
+
+/* Skill Set */
+span.skill, h3.skill
+{
+  font-weight: bold;
+}
+#whatIdo
+{
+  color: white;
+  margin-top: 19x;
+}
+h3.do
+{
+  font-weight: bold;
+}
+span.boldDo
+{
+  font-weight: bold;
+}
+
+/* Tools */
+#tools
+{
+  margin-top: 120px;
+}
+.material-icons
+{color:#303030; }
+h3.tools
+{
+  font-weight: bold;
+}
+#WebDev,#Adobe,#GameDev
+{
+  width: 100%;
+  color: white;
+}
+#ALL
+{
+  width: 100%;
+  color: white;
+}
+
+/* Portfolio */
+#portfol
+{
+  margin-top: 95px;
+}
+h3.portfo
+{
+  font-weight: bold;
+}
+h5.slidertext,h3.slidertext
+{
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+a.3dbutton
+{
+  width: 100%;
+}
+
+nav ul a,
+nav .brand-logo
+{
+  color: white;
+  font-weight:200;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color:white;
+}
+
+
+footer.page-footer {
+  margin: 0;
+}
